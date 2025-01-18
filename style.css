@@ -1,0 +1,22 @@
+/* Animação de fade-in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Aplicando animação aos elementos */
+body {
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Tornando o layout responsivo */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
